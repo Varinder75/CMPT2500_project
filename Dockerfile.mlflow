@@ -1,0 +1,14 @@
+# Use an official Python base image
+FROM python:3.9
+
+# Set the working directory inside the container
+WORKDIR /mlflow
+
+# Install MLflow and necessary dependencies
+RUN pip install mlflow boto3 psycopg2-binary
+
+# Expose the MLflow tracking UI port
+EXPOSE 5000
+
+# Start MLflow tracking server
+CMD ["mlflow", "server", "--host", "0.0.0.0", "--port", "5000"]

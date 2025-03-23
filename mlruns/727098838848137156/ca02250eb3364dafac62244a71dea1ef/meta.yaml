@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/varin/Desktop/MLAD/CMPT2500_assignment1/mlruns/727098838848137156/ca02250eb3364dafac62244a71dea1ef/artifacts
+end_time: 1740553466183
+entry_point_name: ''
+experiment_id: '727098838848137156'
+lifecycle_stage: active
+run_id: ca02250eb3364dafac62244a71dea1ef
+run_name: rf_n_estimators_150_max_depth_5
+run_uuid: ca02250eb3364dafac62244a71dea1ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740553297925
+status: 3
+tags: []
+user_id: varinder

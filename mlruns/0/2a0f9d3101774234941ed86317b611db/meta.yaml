@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/varin/Desktop/MLAD/CMPT2500_assignment1/mlruns/0/2a0f9d3101774234941ed86317b611db/artifacts
+end_time: 1740554786131
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a0f9d3101774234941ed86317b611db
+run_name: valuable-ray-892
+run_uuid: 2a0f9d3101774234941ed86317b611db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740554558757
+status: 3
+tags: []
+user_id: varinder

@@ -1,0 +1,8 @@
+model:
+  architecture: ResNet50
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 50
+model_params:
+  n_estimators: 200
+  max_depth: 10

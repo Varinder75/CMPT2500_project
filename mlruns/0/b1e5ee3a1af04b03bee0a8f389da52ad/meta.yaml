@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/varin/Desktop/MLAD/CMPT2500_assignment1/mlruns/0/b1e5ee3a1af04b03bee0a8f389da52ad/artifacts
+end_time: 1740460934903
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1e5ee3a1af04b03bee0a8f389da52ad
+run_name: aged-penguin-507
+run_uuid: b1e5ee3a1af04b03bee0a8f389da52ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740460821626
+status: 3
+tags: []
+user_id: varinder

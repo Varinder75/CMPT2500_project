@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/varin/Desktop/MLAD/CMPT2500_assignment1/mlruns/0/3482d9a931b54f87818ae93b21a683c6/artifacts
+end_time: 1740554953434
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3482d9a931b54f87818ae93b21a683c6
+run_name: trusting-auk-804
+run_uuid: 3482d9a931b54f87818ae93b21a683c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740554952996
+status: 4
+tags: []
+user_id: varinder

@@ -1,0 +1,6 @@
+artifact_location: file:///mnt/c/Users/varin/Desktop/MLAD/CMPT2500_assignment1/mlruns/727098838848137156
+creation_time: 1740553088444
+experiment_id: '727098838848137156'
+last_update_time: 1740553088444
+lifecycle_stage: active
+name: random_forest_experiment

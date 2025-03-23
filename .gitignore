@@ -1,0 +1,9 @@
+venv/
+*.zip
+*.tar.gz
+*.log
+*.pkl
+.dvc/
+*.csv
+
+data/
