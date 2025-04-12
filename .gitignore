@@ -6,4 +6,5 @@ venv/
 .dvc/
 *.csv
 
-data/
+data/gdrive-credentials.json
+gdrive-credentials.json
