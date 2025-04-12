@@ -1,26 +1,34 @@
 version: '3'
-
 services:
-  ml-app:
-    build:
-      context: .
-      dockerfile: Dockerfile.mlflow
+  flask_app:
+    build: .
     ports:
-      - "5000:5000"  # Exposing the API on port 5000
+      - "5000:5000"
+    volumes:
+      - .:/app
+    command: python src/app.py
+    depends_on:
+      - prometheus
+      - grafana
     networks:
-      - ml-network  # Referencing the defined network
-    environment:
-      - MLFLOW_TRACKING_URI=http://mlflow:5000
+      - monitoring
 
-  mlflow:
-    build:
-      context: .
-      dockerfile: Dockerfile.mlflow
+  prometheus:
+    image: prom/prometheus
     ports:
-      - "5001:5000"  # Exposing MLflow UI on port 5001
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
     networks:
-      - ml-network  # Referencing the defined network
+      - monitoring
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - monitoring
 
 networks:
-  ml-network:
-    driver: bridge  # This defines the network
+  monitoring:
+    driver: bridge
