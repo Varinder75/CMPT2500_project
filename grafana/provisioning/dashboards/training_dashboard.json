@@ -1,0 +1,37 @@
+{
+    "dashboard": {
+      "id": null,
+      "uid": "training-dashboard",
+      "title": "Training Metrics",
+      "tags": ["ml", "training"],
+      "panels": [
+        {
+          "type": "graph",
+          "title": "Training Accuracy",
+          "targets": [
+            {
+              "expr": "training_accuracy", 
+              "format": "time_series"
+            }
+          ],
+          "xaxis": {
+            "mode": "time"
+          }
+        },
+        {
+          "type": "graph",
+          "title": "Training Loss",
+          "targets": [
+            {
+              "expr": "training_loss",
+              "format": "time_series"
+            }
+          ],
+          "xaxis": {
+            "mode": "time"
+          }
+        }
+      ]
+    }
+  }
+  
